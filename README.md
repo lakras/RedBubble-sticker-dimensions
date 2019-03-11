@@ -1,6 +1,4 @@
 # RedBubble-sticker-dimensions
-_predicts printed width and height of small RedBubble stickers, and minimum distance between objects to be cut out as separate stickers_
-
 The preview that RedBubble provides for small stickers does not accurately represent the sticker size or the padding around objects. This means that objects that are displayed as separate stickers in the preview might not be printed as separate stickers. If you are trying to create a sticker pack with multiple stickers or any other sticker with a specific cut-out shape (https://www.redbubble.com/people/nightlyfieldlog/works/35996711-space-cows-in-space-star-sticker-pack, for example), then RedBubble's preview image can be extremely misleading.
 
 This script predicts the printed dimensions of an image if it is uploaded to RedBubble and printed as a "small" sized sticker, along with the minimum vertical and horizontal transparent space (in pixels) that should be between objects in the image to ensure that there is a cut between them (and that they are printed as separate stickers).
